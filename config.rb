@@ -33,7 +33,7 @@ configure :build do
   set :js_dir, '/meme/javascripts'
   set :images_dir, '/meme/images'
   set :url_prefix, "/meme"
-  set :absolute_prefix, "http://tools.propublica.local/meme"
+  set :absolute_prefix, "http://tools.propublica.local/meme/"
   #activate :asset_hash
   activate :minify_javascript
   activate :minify_css
